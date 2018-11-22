@@ -1,0 +1,81 @@
+/* Body of the Page - all htmls*/
+
+html, body{
+    background-image: url("../images/oriental.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    margin: 0px;
+  
+}
+
+
+/* Header - where we have name and the links*/
+/* bar that contains all - all htmls*/
+
+.container1{
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 75px;
+    display: block;
+    position: fixed;
+    top: 0%;
+}
+
+
+/* Box inside the Body -- all htmls */
+.container2{
+    max-width: 960px;
+    background: #ffffff;
+    border: #dddddd;
+    padding: 20px;
+    min-height: 50%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
+}
+
+/* About Me bar -- all htmls */
+.Header1{
+    color:#4aaaa5;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #777777;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+/*Middle box  - Contact and Portfolio.html*/
+.container3 {
+    border-radius: 5px;
+    background:  #ffffff;
+    padding: 10px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Keep footer at the bottom -- all html*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background:#666666;
+    text-align: center;
+    padding: 20px;
+    border-top: 9px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #dddddd;
+}
+
