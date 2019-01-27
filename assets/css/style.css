@@ -14,15 +14,6 @@ html, body{
 /* Header - where we have name and the links*/
 /* bar that contains all - all htmls*/
 
-.container1{
-    background-color: #4aaaa5;
-    width: 100%;
-    height: 75px;
-    display: block;
-    position: fixed;
-    top: 0%;
-}
-
 
 /* Box inside the Body -- all htmls */
 .container2{
@@ -34,7 +25,7 @@ html, body{
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 
@@ -67,10 +58,10 @@ html, body{
 
 /*Keep footer at the bottom -- all html*/
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 100px;
     background:#666666;
     text-align: center;
     padding: 20px;
