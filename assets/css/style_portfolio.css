@@ -32,17 +32,4 @@ html, body{
 
 
 
-/*Keep footer at the bottom -- all html*/
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background:#666666;
-    text-align: center;
-    padding: 20px;
-    border-top: 9px solid #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    color: #dddddd;
-}
 
