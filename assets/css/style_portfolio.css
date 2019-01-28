@@ -28,7 +28,9 @@ html, body{
     position: relative;
 }
 
-
+.border{
+    border: 1px solid #4aaaa5;
+}
 
 
 
